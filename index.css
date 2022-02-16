@@ -1,0 +1,72 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.background {
+  background-image: url("site background.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.centerbutton {
+  transform: translateX(395px);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: solid 3.5px green;
+  background-image: url("snake pic.jpg");
+  background-size: 270px;
+  background-position: -60;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: green;
+}
+
+.apple {
+  background-color: red;
+}
+
+.centergame {
+  transform: translateX(340px);
+}
+
+h2 {
+  transform: translateX(-335px);
+}
+
+button:hover,
+button:focus {
+  color: darkgoldenrod;
+}
+
+h1 {
+  transform: translateX(3px);
+}
+h1,
+h2 {
+  color: rgb(29, 155, 39);
+  font-weight: bolder;
+  position: relative;
+}
